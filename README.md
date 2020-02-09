@@ -11,7 +11,8 @@ For example, for “284 803 830 071 167”, whose representation in bits is:
 
 00000000 00000001 00000011 00000111 00001111 00011111 00111111 01111111
 
-We build the following map : 
+We build the following map:
+
         ........
         
         .......#
@@ -32,15 +33,19 @@ We build the following map :
 # How the game works ? 
 -> Pieces: You can have different pieces that are also a representation in bits of a number. 
 
-   ...#....   or  .##.....   etc.
+   ...#....   or  
+                  .##.....   etc.
    
                   .#......   
 -> Moving of a piece: Every sesion in this game contains a number of moves. Every move contains the current piece and its transformations: one transformation for each line of the map.
-For example, if we have this move: 6168 -1 2 -2 0 0 1 1 -3 , where the piece looks like this: ...##...
+For example, if we have this move: 6168 -1 2 -2 0 0 1 1 -3 , where the piece looks like this:
 
-                                                                                              ...##...
+...##...
+
+...##...
                                                                                               
 A transformation -6 produce to this piece this result: 
+
                                                        ##......
 
                                                        ##......
