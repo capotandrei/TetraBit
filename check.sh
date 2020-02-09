@@ -3,7 +3,7 @@
 num_points=90
 num_tests=18
 points_per_test=$((num_points/num_tests))
-EXE=tema1
+EXE=main
 TESTING=checker
 TOTAL=0
 
