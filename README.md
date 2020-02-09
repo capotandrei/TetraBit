@@ -33,10 +33,15 @@ We build the following map:
 # How the game works ? 
 -> Pieces: You can have different pieces that are also a representation in bits of a number. 
 
-   ...#....   or  
-                  .##.....   etc.
-   
-                  .#......   
+...#....
+
+or  
+
+
+.##..... 
+
+.#......
+
 -> Moving of a piece: Every sesion in this game contains a number of moves. Every move contains the current piece and its transformations: one transformation for each line of the map.
 For example, if we have this move: 6168 -1 2 -2 0 0 1 1 -3 , where the piece looks like this:
 
