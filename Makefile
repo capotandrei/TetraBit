@@ -1,10 +1,10 @@
-run: tema1
-	./tema1
+run: main
+	./main
 
-build: tema1
+build: main
 
-tema1: tema1.c
-	gcc -Wall -g tema1.c moving_parts_foo.c map_foo.c new_stuff.c -o tema1 -lm
+tema1: main.c
+	gcc -Wall -g main.c moving_parts_foo.c map_foo.c new_stuff.c -o main -lm
 
 clean:
-	rm *.o tema1
+	rm *.o main
